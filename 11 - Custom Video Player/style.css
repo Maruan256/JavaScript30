@@ -28,6 +28,10 @@ body {
 }
 
 /* This css is only applied when fullscreen is active. */
+.fullscreen {
+    max-width: none;
+    width: 100%;
+}
 .player:fullscreen {
   max-width: none;
   width: 100%;
